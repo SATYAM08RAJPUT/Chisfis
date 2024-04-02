@@ -333,6 +333,7 @@ li{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
+  width: 94%;
 }
 .footer img{
   width: 40%;
@@ -478,14 +479,17 @@ border-radius: 5px;
 .dotline{
   position: relative;
   top: 100px;
+  width: 90%;
   left: 50px;
 }
 .icesHouse{
   margin-top: 4%;
+  margin-left: 4%;
  overflow: auto;
  display: flex;
  margin-bottom: 40px;
  padding: 10px;
+ width: 90%;
 }
 .icesHouse img{
   width: 500px;

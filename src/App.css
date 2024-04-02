@@ -21,7 +21,6 @@ body {
   color: var(--text-color);
 }
 header {
-  padding: 1rem;
   background-color: var(--background-color);
 }
 .hide{
@@ -46,4 +45,7 @@ header {
   margin-top: 5px;
   cursor: pointer;
   font-size: 20px;
+}
+.sectionConatiner{
+  width: 99%;
 }

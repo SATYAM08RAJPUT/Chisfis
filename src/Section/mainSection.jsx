@@ -8,7 +8,7 @@ import SectionInfo from "./section";
 
 export default function Section(){
     return(
-        <section>
+        <section className="sectionConatiner">
             <SectionInfo />
             <Location />
             <Heading />
