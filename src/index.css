@@ -16,7 +16,7 @@ header{
  text-align: right;
 }
 .middleSide{
-  width: 45%;
+  width: 60%;
 }
 .midleatribute,a{
     display: flex;
@@ -94,6 +94,7 @@ font-weight: 620;
 }
 .one button{
   font-size: 1rem;
+  border: none;
   width: 185px;
   border-radius: 50px;
   background-color: #4f46e5;
@@ -208,7 +209,7 @@ li{
     display: flex;
     margin-left: 5%;
     margin-bottom: 10px;
-    margin-top: -110px;
+    /* margin-top: -110px; */
 }
 .locations .fa{
   font-size: 30px;
@@ -254,7 +255,7 @@ li{
   grid-gap: 10px;
   margin-bottom: 50px;
   /* width: 80%; */
-  margin-left: 5%;
+  margin-left: 8%;
   /* overflow-y: scroll; */
 }
 .sectionImg Img{
@@ -327,13 +328,13 @@ li{
 .footer{
   text-align: center;
   font-family: sans-serif;
-  padding: 30px;
+  padding: 25px;
   line-height: 3rem;
   box-shadow: 1px 1px 1px 2px rgb(196, 125, 125);
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
-  width: 94%;
+  width: 95%;
 }
 .footer img{
   width: 40%;

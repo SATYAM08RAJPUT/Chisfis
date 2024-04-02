@@ -27,11 +27,11 @@ export default function Location(){
                     <p>Guests</p>
                 </div>
                 </div>
-                <div className="date">
+                {/* <div className="date">
                     <div className="searchdark">
                     <Icons className={"fa fa-search"} />    
                     </div>
-                </div>
+                </div> */}
         </div>
     )
 }
