@@ -16,7 +16,7 @@ header{
  text-align: right;
 }
 .middleSide{
-  width: 60%;
+  width: 50%;
 }
 .midleatribute,a{
     display: flex;
@@ -209,7 +209,7 @@ li{
     display: flex;
     margin-left: 5%;
     margin-bottom: 10px;
-    /* margin-top: -110px; */
+    margin-top: -110px;
 }
 .locations .fa{
   font-size: 30px;
@@ -328,13 +328,13 @@ li{
 .footer{
   text-align: center;
   font-family: sans-serif;
-  padding: 25px;
+  padding: 23px;
   line-height: 3rem;
   box-shadow: 1px 1px 1px 2px rgb(196, 125, 125);
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
-  width: 96%;
+  width: 97%;
 }
 .footer img{
   width: 40%;
