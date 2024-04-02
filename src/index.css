@@ -334,7 +334,7 @@ li{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
-  width: 95%;
+  width: 96%;
 }
 .footer img{
   width: 40%;
