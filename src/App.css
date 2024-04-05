@@ -62,7 +62,7 @@ header {
 a:first-child{
   background-color: var(--background-ahref);
   padding: 7px;
-  margin-top: -2px;
+  margin-top: -0.5px;
   font-weight: 620;
   border-radius: 15px;
 }
