@@ -26,14 +26,7 @@ header{
     justify-content: space-between;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
 }
-a:first-child{
-  background-color: #f3f4f6;
-  color: black;
-  padding: 10px;
-  margin-top: -5px;
-font-weight: 620;
-  border-radius: 15px;
-}
+
 .fa:first-child{
   margin-top: 2px;
 }
@@ -139,8 +132,9 @@ li{
   z-index: 1000;
   line-height: 2rem;
   color: var(--text-color);
+  border:var(--border-tool);
   background-color: var(--background-color);
-  box-shadow: 1px 1px 5px 2px rgb(225, 225, 225);
+  /* box-shadow: 1px 1px 5px 2px rgb(225, 225, 225); */
 }
 .midleatribute a:hover + .hideColums{
   display: block;
@@ -157,8 +151,9 @@ li{
   z-index: 1000;
   line-height: 2rem;
   color: var(--text-color);
+  border:var(--border-tool);
   background-color: var(--background-color);
-  box-shadow: 1px 1px 5px 2px rgb(225, 225, 225);
+  /* box-shadow: 1px 1px 5px 2px rgb(225, 225, 225); */
 }
 .midleatribute a:hover + .hidepage{
   display: block;
@@ -175,8 +170,9 @@ li{
   z-index: 1000;
   line-height: 2rem;
   color: var(--text-color);
+  border:var(--border-tool);
   background-color: var(--background-color);
-  box-shadow: 1px 1px 5px 2px rgb(225, 225, 225);
+  /* box-shadow: 1px 1px 5px 2px rgb(225, 225, 225); */
 }
 .midleatribute a:hover + .hidetemplate{
   display: block;
@@ -193,8 +189,9 @@ li{
   z-index: 1000;
   line-height: 2rem;
   color: var(--text-color);
+  border:var(--border-tool);
   background-color: var(--background-color);
-  box-shadow: 1px 1px 5px 2px rgb(225, 225, 225);
+  /* box-shadow: 1px 1px 5px 2px rgb(225, 225, 225); */
 }
 .midleatribute a:hover + .hideother{
   display: block;
@@ -203,7 +200,7 @@ li{
 .locations{
   width: 80%;
   /* background-color: #fff; */
-    box-shadow: 0px 0px 1px 2px rgb(231, 223, 223);
+    /* box-shadow: 0px 0px 1px 2px rgb(231, 223, 223); */
     padding: 10px;
     border-radius: 35px;
     display: flex;
